@@ -1,0 +1,21 @@
+
+/* ABOUT US */
+.heading {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px #457b9d solid;
+    margin-bottom: 50px;
+}
+.heading h6 {
+    padding: 20px;
+}
+
+
+
+
+/* MEDIA QUERIES */
+@media (max-width: 762px){
+    .part-2 img{
+        display: none;
+    }
+}
