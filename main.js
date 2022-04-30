@@ -118,4 +118,22 @@ var rowcount = 4;
     doc.save('CV.pdf');
 }
 
+// form Validation 
+$('#formValidation').validate({
+    rules:{
+        name: {
+            minlength: 2
+        }
+    }, 
+    messeges: {
+        name: {
+            required: "Please enter your name",
+            minlength: "Name must be at least 2 characters"
+        }
+    },
     
+    submitHandler: function (form ) {
+        form.submit();
+
+    }
+})
