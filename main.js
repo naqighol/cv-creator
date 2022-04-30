@@ -131,9 +131,9 @@ $('#formValidation').validate({
             minlength: "Name must be at least 2 characters"
         }
     },
-    
-    submitHandler: function (form ) {
-        form.submit();
 
+    submitHandler: function (form ) {
+        // form.genPDF();
+        genPDF();
     }
 })
